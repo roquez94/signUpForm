@@ -1,0 +1,118 @@
+body {
+    font  : 1.5rem sans-serif;
+    background : rgb(124, 7, 124);
+    margin: 0;
+    padding: 0;
+  }
+
+.page {
+    display: flex;
+    flex-direction: row;
+    padding-right: 5%;
+    padding-left: 5%;
+    margin: 0;
+    min-height: 100vh;
+}
+
+.side {
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    flex: 40%;
+    background: purple url(hybrid.jpg);
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(255, 254, 255);
+    opacity: .85;
+    margin-top: 20%;
+    box-sizing: border-box;
+    height: 200px;
+    width: 100%;
+}
+.credit {
+    align-self: center;
+    color: white;
+}
+
+.side h2 {
+    color: rgb(87, 2, 87);
+}
+#dLogo {
+    box-sizing: border-box;
+    height: 100%;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    flex: 60%;
+    background: whitesmoke;
+}
+
+.columns {
+    display: flex;
+    justify-content: space-between;
+    margin-right:20%;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    margin-left: 5%;
+}
+
+fieldset {
+    border-style: outset none outset none;
+}
+
+input {
+    box-shadow: inset 1px 1px 3px #ccc;
+    border-radius: 5px;
+  }
+
+  input:hover, input:focus {
+    background-color: #eee;
+  }
+
+  button {
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  button,
+  input,
+  select {
+    font-family: inherit;
+    font-size: 100%;
+    padding: 0; margin: 0;
+  }
+
+  button {
+    background-color:rgb(87, 2, 87);
+    color: white;
+    width: 30%;
+    height: 60px;
+    border-radius: 5px;
+  }
+
+  .about {
+    /*top right bottom left*/
+    margin: 10% 5% 0 5%;
+  }
+
+  .about2 {
+    margin: 5% 5% 0 5%;
+  }
+
+  h2 {
+    margin: 0;
+  }
+
+  a {
+    color: inherit;
+  }

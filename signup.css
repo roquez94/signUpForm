@@ -73,10 +73,15 @@ fieldset {
 input {
     box-shadow: inset 1px 1px 3px #ccc;
     border-radius: 5px;
+    width: 100%;
   }
 
   input:hover, input:focus {
     background-color: #eee;
+  }
+
+  input:invalid {
+    border: 3px solid rgb(183, 0, 255);
   }
 
   button {
@@ -100,6 +105,11 @@ input {
     border-radius: 5px;
   }
 
+  button:hover, button:focus {
+    background-color: plum;
+    border: 5px outset rgb(201, 123, 253);
+  }
+
   .about {
     /*top right bottom left*/
     margin: 10% 5% 0 5%;
@@ -110,6 +120,8 @@ input {
   }
 
   h2 {
+    font-size: 2rem;
+    font-weight: bold;
     margin: 0;
   }
 
